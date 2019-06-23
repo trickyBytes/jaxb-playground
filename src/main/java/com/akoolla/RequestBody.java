@@ -1,5 +1,6 @@
 package com.akoolla;
 
 public interface RequestBody {
-	String someAnimal();
+	String getSomeAnimal();
+	void setSomeAnimal(String someAnimal);
 }

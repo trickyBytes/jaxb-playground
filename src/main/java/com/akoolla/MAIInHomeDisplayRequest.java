@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class MAIInHomeDisplayRequest {
 
-	@XmlElementWrapper(name = "body")
+	@XmlElementWrapper(name = "Body")
 	@XmlAnyElement
 	public List<RequestBody> body;
 }
